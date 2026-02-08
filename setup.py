@@ -17,7 +17,7 @@ def get_requirements(file_path : str) -> list[str]:
     return requirements
 
 setup(
-    name='End to End Data Science project',
+    name='endtoendDS',
     version='1.0',
     packages=find_packages(),
     author='Devagan',
