@@ -152,7 +152,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+src/endtoendDS/.env
 .envrc
 .venv
 env/

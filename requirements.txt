@@ -1,5 +1,7 @@
 numpy
 pandas
 setuptools
-
+pymysql
+python-dotenv
+scikit-learn
 -e .
