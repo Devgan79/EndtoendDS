@@ -1,0 +1,6 @@
+setup.py
+endtoendDS.egg-info/PKG-INFO
+endtoendDS.egg-info/SOURCES.txt
+endtoendDS.egg-info/dependency_links.txt
+endtoendDS.egg-info/requires.txt
+endtoendDS.egg-info/top_level.txt
