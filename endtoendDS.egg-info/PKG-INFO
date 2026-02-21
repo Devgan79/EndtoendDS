@@ -8,5 +8,9 @@ Requires-Dist: setuptools
 Requires-Dist: pymysql
 Requires-Dist: python-dotenv
 Requires-Dist: scikit-learn
+Requires-Dist: dvc
+Requires-Dist: seaborn
+Requires-Dist: catboost
+Requires-Dist: xgboost
 Dynamic: author
 Dynamic: requires-dist

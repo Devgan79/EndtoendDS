@@ -5,4 +5,7 @@ pymysql
 python-dotenv
 scikit-learn
 dvc
+seaborn
+catboost
+xgboost
 -e .
