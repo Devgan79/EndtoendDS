@@ -10,16 +10,16 @@ This project implements a complete end-to-end data science workflow, from data i
 ✔ A Docker container for reproducible builds<br>
 
 
-├── .dvc/                      # DVC versioning for datasets & models<br>
-├── Dataset/                  # Raw and processed data storage<br>
-├── Notebooks/               # Jupyter notebooks for experimentation & EDA<br>
-├── catboost_info/           # CatBoost model metadata<br>
-├── src/                     # Python modules used by scripts<br>
-├── Dockerfile               # Instructions for containerizing the app<br>
-├── app.py                   # App entry point (API or UI interface)<br>
-├── main.py                  # Script for training / running the pipeline<br>
-├── requirements.txt         # Python dependencies<br>
-├── setup.py                 # Package setup for installation<br>
-├── template.py              # Utility / template code<br>
-└── readme.md                # (Original placeholder)<br>
+├── .dvc/&nbsp;&nbsp;&nbsp;                      # DVC versioning for datasets & models<br>
+├── Dataset/&nbsp;&nbsp;&nbsp;                  # Raw and processed data storage<br>
+├── Notebooks/&nbsp;&nbsp;&nbsp;               # Jupyter notebooks for experimentation & EDA<br>
+├── catboost_info/&nbsp;&nbsp;&nbsp;           # CatBoost model metadata<br>
+├── src/&nbsp;&nbsp;&nbsp;                     # Python modules used by scripts<br>
+├── Dockerfile&nbsp;&nbsp;&nbsp;               # Instructions for containerizing the app<br>
+├── app.py&nbsp;&nbsp;&nbsp;                   # App entry point (API or UI interface)<br>
+├── main.py&nbsp;&nbsp;&nbsp;                  # Script for training / running the pipeline<br>
+├── requirements.txt&nbsp;&nbsp;&nbsp;         # Python dependencies<br>
+├── setup.py&nbsp;&nbsp;&nbsp;                 # Package setup for installation<br>
+├── template.py&nbsp;&nbsp;&nbsp;              # Utility / template code<br>
+└── readme.md&nbsp;&nbsp;&nbsp;                # (Original placeholder)<br>
 
