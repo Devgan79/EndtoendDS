@@ -24,11 +24,34 @@ This project implements a complete end-to-end data science workflow, from data i
 └── readme.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                # (Original placeholder)<br>
 
 <h2>Installation</h2><br>
-
-<h3>Clone the repo</h3><br>
-
+Clone the repo<br>
 git clone https://github.com/Devgan79/EndtoendDS.git<br>
 cd EndtoendDS<br>
 
 <h2>Install packages </h2><br>
 pip install -r requirements.txt<br>
+
+
+
+<h2>Exploratory Data Analysis</h2><br>
+
+Under Notebooks/ you will find step-by-step experimentation such as:<br>
+
+✔ Data visualization<br>
+✔ Feature engineering<br>
+✔ Model evaluation<br>
+
+<h2>Model Training & Evaluation<h2>
+
+A typical pipeline steps through:<b2>
+
+Data loading & cleaning (from Dataset folder)<br>
+
+Feature engineering<br>
+
+Training model (e.g., CatBoost, sklearn, etc.)<br>
+
+Evaluating metrics<br>
+
+Saving outputs to model folders<br>
+
