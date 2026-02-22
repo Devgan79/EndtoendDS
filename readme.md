@@ -41,17 +41,14 @@ Under Notebooks/ you will find step-by-step experimentation such as:<br>
 ✔ Feature engineering<br>
 ✔ Model evaluation<br>
 
-<h2>Model Training & Evaluation</h2>
-
+<h2>Model Training & Evaluation</h2><br>
 A typical pipeline steps through:<b2>
 
 Data loading & cleaning (from Dataset folder)<br>
-
 Feature engineering<br>
-
 Training model (e.g., CatBoost, sklearn, etc.)<br>
-
 Evaluating metrics<br>
-
 Saving outputs to model folders<br>
+
+
 
