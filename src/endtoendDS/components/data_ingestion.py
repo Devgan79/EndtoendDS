@@ -22,8 +22,9 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             ##reading the data from mysql
-            df=read_sql_data()
-            logging.info("Reading completed mysql database")
+            df=read_sql_data() # to read from DB
+            #df=pd.read_csv(os.path.join('location/of your raw data','nameof file.csv'))
+            logging.info("Reading completed from mysql database and stored in dataframe df in data_ingestion.py")
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
 
@@ -32,7 +33,7 @@ class DataIngestion:
             train_set.to_csv(self.ingestion_config.train_data_path,index=False,header=True)
             test_set.to_csv(self.ingestion_config.test_data_path,index=False,header=True)
 
-            logging.info("Data Ingestion is completed")
+            logging.info("####-----Data Ingestion is completed-----####")
 
             return(
                 self.ingestion_config.train_data_path,
