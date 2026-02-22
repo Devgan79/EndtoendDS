@@ -41,7 +41,7 @@ Under Notebooks/ you will find step-by-step experimentation such as:<br>
 ✔ Feature engineering<br>
 ✔ Model evaluation<br>
 
-<h2>Model Training & Evaluation<h2>
+<h2>Model Training & Evaluation</h2>
 
 A typical pipeline steps through:<b2>
 
