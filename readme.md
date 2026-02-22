@@ -10,18 +10,66 @@ This project implements a complete end-to-end data science workflow, from data i
 ✔ A Docker container for reproducible builds<br>
 
 
-├── .dvc/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      # DVC versioning for datasets & models<br>
-├── Dataset/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                  # Raw and processed data storage<br>
-├── Notebooks/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               # Jupyter notebooks for experimentation & EDA<br>
-├── catboost_info/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           # CatBoost model metadata<br>
-├── src/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     # Python modules used by scripts<br>
-├── Dockerfile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               # Instructions for containerizing the app<br>
-├── app.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   # App entry point (API or UI interface)<br>
-├── main.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                  # Script for training / running the pipeline<br>
-├── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         # Python dependencies<br>
-├── setup.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 # Package setup for installation<br>
-├── template.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              # Utility / template code<br>
-└── readme.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                # (Original placeholder)<br>
+<h2>📂 Project Structure</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Folder / File</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>.dvc/</code></td>
+      <td>DVC versioning for datasets & models</td>
+    </tr>
+    <tr>
+      <td><code>Dataset/</code></td>
+      <td>Raw and processed data storage</td>
+    </tr>
+    <tr>
+      <td><code>Notebooks/</code></td>
+      <td>Jupyter notebooks for experimentation & EDA</td>
+    </tr>
+    <tr>
+      <td><code>catboost_info/</code></td>
+      <td>CatBoost training metadata and logs</td>
+    </tr>
+    <tr>
+      <td><code>src/</code></td>
+      <td>Python modules containing core pipeline logic</td>
+    </tr>
+    <tr>
+      <td><code>Dockerfile</code></td>
+      <td>Instructions for containerizing the application</td>
+    </tr>
+    <tr>
+      <td><code>app.py</code></td>
+      <td>Application entry point (API / UI interface)</td>
+    </tr>
+    <tr>
+      <td><code>main.py</code></td>
+      <td>Main script for training and running the ML pipeline</td>
+    </tr>
+    <tr>
+      <td><code>requirements.txt</code></td>
+      <td>List of required Python dependencies</td>
+    </tr>
+    <tr>
+      <td><code>setup.py</code></td>
+      <td>Project packaging and installation configuration</td>
+    </tr>
+    <tr>
+      <td><code>template.py</code></td>
+      <td>Utility or base template code</td>
+    </tr>
+    <tr>
+      <td><code>readme.md</code></td>
+      <td>Project documentation file</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Installation</h2><br>
 Clone the repo<br>
